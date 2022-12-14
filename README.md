@@ -2,7 +2,8 @@
 Built with Vite, React, TailwindCSS, daisyUI, TypeScript, Eslint.
 
 ### Start project on local
-
+- Change the `.env.example` to `.env`
+- Start Vite dev server
 ```yarn
 yarn && yarn dev
 ```
