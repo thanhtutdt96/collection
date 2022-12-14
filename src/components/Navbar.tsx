@@ -1,4 +1,5 @@
 import { Dispatch, FC, SetStateAction } from 'react';
+import logo from 'assets/logo.png';
 import { DisplayMode } from 'types/Product';
 
 interface Props {
@@ -65,7 +66,10 @@ const Navbar: FC<Props> = ({ displayMode, setDisplayMode, searchTerm, setSearchT
             ))}
           </ul>
         </div>
-        <div className="btn btn-ghost normal-case text-xl">Collection</div>
+        <div className="btn btn-ghost normal-case text-lg">
+          <img className="w-6 mr-2" src={logo} alt="Collection" />
+          Collection
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
